@@ -10,7 +10,7 @@ const Panel = () => {
             <div className="panel-badge">Panel </div>
             <div className="subject">
                 {/* <div>Sujet</div> */}
-                <h1>L'adoption du développement mobile au Sénégal</h1>
+                <h1>Les avantages du développement mobile natif</h1>
             </div>
             <div>
                 <div className="paneliste-head" > Nos Panélistes : </div>

@@ -12,9 +12,24 @@
   "dependencies": {
     "eslint": "8.29.0",
     "eslint-config-next": "13.0.6",
+    "fix-path": "^3.0.0",
+    "image-trace-loader": "^1.0.2",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-svgo": "^10.0.1",
+    "jimp": "^0.16.2",
+    "lqip-loader": "^2.2.1",
     "next": "13.0.6",
+    "next-optimized-images": "^2.6.2",
+    "node-fetch": "^2.6.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sass": "^1.56.1"
+    "react-icon": "^1.0.0",
+    "responsive-loader": "^3.1.2",
+    "sass": "^1.56.1",
+    "svg-sprite-loader": "^6.0.11",
+    "webp-loader": "^0.6.0"
   }
 }

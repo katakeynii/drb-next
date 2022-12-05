@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-
+import logoODC from "../public/images/odc-logo.png"
 import pic from "../public/images/meetuptwo.jpeg";
 import Panel from "../components/Panel";
 import ciss from "../public/images/iciss.jpeg";
@@ -22,7 +22,7 @@ function App() {
           <div className="meetup-container">
             <div className="meetup-infos">
               <div className="meetup-badge">Prochain Meetup </div>
-              <div className="title">31 Décembre 2022</div>
+              <div className="title">24 Décembre 2022</div>
               <div className="date">à 10H au <span>Orange Digital Center</span></div>
             </div>
             <div className="talks">
@@ -42,6 +42,9 @@ function App() {
         </div>
         <div className="header-overlay"></div>
         <Image className="header-bg" src={pic} />
+        <div className="logo-odc">
+          <Image src={logoODC} alt="Orange DigitalCenter" />
+        </div>
       </header>
     </div>
   );
