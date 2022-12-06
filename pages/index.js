@@ -52,7 +52,7 @@ function App() {
                   title="Handling errors as if your life depends on it"
                 />
                 <Talk
-                  speakerCover={sidibe}
+                  speakerCover={derminator}
                   speakerName="Mouhamadou DER"
                   title="Quoi de neuf Drupal ?"
                   tl_profile="https://twitter.com/derkhadim"

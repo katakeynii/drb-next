@@ -26,8 +26,6 @@ Contactez nous sur : dakar.ruby.brigade@gmail.com.
 Twitter : https://twitter.com/dakar_ruby
 LinkedIn : https://www.linkedin.com/company/dakar-ruby-brigrade/
     `
-    var text3 = ``
-    
     console.log(text, style);
     console.log(text2, style2);
   }, [])
