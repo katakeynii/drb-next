@@ -1,3 +1,4 @@
+import {useEffect} from "react"
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
@@ -12,6 +13,8 @@ import sidibe from "../public/images/sidibe.jpeg"
 
 import { IoLogoTwitter } from "react-icons/io5";
 function App() {
+
+  
   return (
     <>
       <Head>
