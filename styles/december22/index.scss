@@ -252,8 +252,60 @@ body {
         }
     }
 }
+.participation-link{
+    position: fixed;
+    bottom: 5rem;
+    z-index: 30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 30px;
+    a{
+        background-color: #fff;
+        padding: 7.5px 50px;
+        z-index: 30;
+        display: flex;
+        align-items: center;
+        border-radius: 50px;
+        flex-direction: column;
+        font-weight: bold;
 
+        .participation-title {
+            font-size: 1.1rem;
+            font-family: "OswaldBold";
+        }
+    }
+}
 @media screen and (max-width: 860px) {
+    .participation-link{
+        position: fixed;
+        bottom: 3rem;
+        z-index: 30;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        a{
+            background-color: #fff;
+            padding: 7.5px 30px;
+            z-index: 30;
+            display: flex;
+            align-items: center;
+            box-shadow: 0px 5px 10px 3px #5f5f5f;
+            border-radius: 50px;
+            flex-direction: column;
+            width: 75%;
+            font-weight: bold;
+    
+            .participation-title {
+                font-size: 1.5rem;
+                font-family: "OswaldBold";
+            }
+        }
+    }
+    .main-header{
+        padding-bottom: 100px;
+    }
     .logo-odc{
         display: none;
     }
@@ -315,22 +367,35 @@ body {
 
 .add-to-cal {
     background: #fff;
-    padding: 10px 20px;
+    padding: 5px 20px;
     border-radius: 10px;
     display: flex;
-    gap: 15px;
+    gap: 5px;
     align-items: center;
     &.google-cal{
         background: #EA4335;
         color: #fff;
     }
-    &:outloo-cal{
-
+    &.outlook-cal{
+        background: #01A6F0;
+        color: #fff;
+    }
+    @media screen and (max-width: 860px){
+        align-items: flex-start;
+        font-size: 2rem;
+        padding: 20px;
+        box-sizing: border-box;
+        span{
+            display: none;
+        }
     }
 }
 
 .calendars{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
+    @media screen and (max-width: 860px){
+        align-items: flex-start;
+    }
 }
