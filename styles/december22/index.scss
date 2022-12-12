@@ -100,6 +100,8 @@ body {
     padding: 20px 30px;
     position: relative;
     z-index: 5px;
+    display: flex;
+    justify-content: space-between;
 }
 .logo{
     display: flex;
@@ -308,4 +310,27 @@ body {
         height: 100%;
         object-fit: cover;
     }
+}
+
+
+.add-to-cal {
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    &.google-cal{
+        background: #EA4335;
+        color: #fff;
+    }
+    &:outloo-cal{
+
+    }
+}
+
+.calendars{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }

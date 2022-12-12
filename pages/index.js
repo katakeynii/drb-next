@@ -10,8 +10,8 @@ import derminator from "../public/images/derminator.jpeg";
 import hospice from "../public/images/hospice.jpeg"
 import rygel from "../public/images/rygel.jpeg"
 import sidibe from "../public/images/sidibe.jpeg"
-
-import { IoLogoTwitter } from "react-icons/io5";
+import {SiMicrosoftoutlook, SiGooglecalendar} from "react-icons/si"
+import { IoLogoTwitter, IoLogoGoogle } from "react-icons/io5";
 function App() {
 
   
@@ -31,6 +31,15 @@ function App() {
             <div className="logo">
               <h1 className="logo-text">DRB</h1>
               <div className="logo-tagline">Dakar Ruby Brigade</div>
+            </div>
+            <div className="calendars">
+              <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221224T100000Z%2F20221224T130000Z&details=Le%20DRB%20Meetup%20de%20ce%20mois%20de%20D%C3%A9cembre%202022%20sera%20%C3%A0%20Orange%20Digital%20Center%20%C3%A0%20la%20VDN%20%C3%A0%20c%C3%B4t%C3%A9%20de%20l%27%C3%A9cole%20de%20police.%20%0ADate%3A%2024%20Decembre%202022%20%C3%A0%2010h%0ANous%20aurons%20deux%20pr%C3%A9sentations%20et%20un%20panel%20sur%20le%20d%C3%A9veloppment%20mobile%20natif.%0ALes%20pr%C3%A9sentations%C2%A0%0A%E2%80%93%09Ibrahima%20Ciss%20%3A%20Handling%20errors%20as%20if%20your%20life%20depended%20on%20it%0A%E2%80%93%09Mouhamadou%20DER%20%3A%20Quoi%20de%20neuf%20Drupal%20%3F%0ALe%20Panel%20-%3E%20Th%C3%A8me%3A%20Les%20avantages%20du%20d%C3%A9veloppment%20mobile%20natif%0A%E2%80%93%09Rygel%20Louv%0A%E2%80%93%09Ibrahima%20Ciss%0A%E2%80%93%09Souleymane%20Sidibe%0A%E2%80%93%09Segnonna%20Hounsou%0A%0Awww.dakarruby.com&location=Sonatel%20Academy%2C%20Immeuble%20Scal%C3%A8ne%20Mermoz%20lot%20B%2C%20Ecole%20Police%2C%20Rue%20KA%2005%2C%20Dakar%2C%20S%C3%A9n%C3%A9gal&text=DRB%20Meetup%20Decembre%202022%20avec%20Orange%20Digital%20Center"  
+              target="_blank" rel="noopener noreferrer" className="add-to-cal google-cal">
+                <SiGooglecalendar /> Google Calendar
+              </a>
+              <a href="https://outlook.live.com/calendar/0/deeplink/compose?body=Le%20DRB%20Meetup%20de%20ce%20mois%20de%20D%C3%A9cembre%202022%20sera%20%C3%A0%20Orange%20Digital%20Center%20%C3%A0%20la%20VDN%20%C3%A0%20c%C3%B4t%C3%A9%20de%20l%27%C3%A9cole%20de%20police.%20%0ADate%3A%2024%20Decembre%202022%20%C3%A0%2010h%0ANous%20aurons%20deux%20pr%C3%A9sentations%20et%20un%20panel%20sur%20le%20d%C3%A9veloppment%20mobile%20natif.%0ALes%20pr%C3%A9sentations%C2%A0%0A%E2%80%93%09Ibrahima%20Ciss%20%3A%20Handling%20errors%20as%20if%20your%20life%20depended%20on%20it%0A%E2%80%93%09Mouhamadou%20DER%20%3A%20Quoi%20de%20neuf%20Drupal%20%3F%0ALe%20Panel%20-%3E%20Th%C3%A8me%3A%20Les%20avantages%20du%20d%C3%A9veloppment%20mobile%20natif%0A%E2%80%93%09Rygel%20Louv%0A%E2%80%93%09Ibrahima%20Ciss%0A%E2%80%93%09Souleymane%20Sidibe%0A%E2%80%93%09Segnonna%20Hounsou%0A%0Awww.dakarruby.com&enddt=2022-12-24T13%3A00%3A00%2B00%3A00&location=Sonatel%20Academy%2C%20Immeuble%20Scal%C3%A8ne%20Mermoz%20lot%20B%2C%20Ecole%20Police%2C%20Rue%20KA%2005%2C%20Dakar%2C%20S%C3%A9n%C3%A9gal&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-12-24T10%3A00%3A00%2B00%3A00&subject=DRB%20Meetup%20Decembre%202022%20avec%20Orange%20Digital%20Center" target="_blank" rel="noopener noreferrer" className="add-to-cal outlook-cal">
+                <SiMicrosoftoutlook /> Outlook Calendar
+              </a>
             </div>
           </nav>
           <div className="home-head">
