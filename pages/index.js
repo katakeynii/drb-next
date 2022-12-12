@@ -78,7 +78,7 @@ function App() {
           <div className="participation-link">
             <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScQlHqoXVCQ7qjOMH406VZJZtmdeyWB6gaZVBUuNmopjtYiuQ/viewform?usp=sf_link" rel="noreferrer">
               <div  className="participation-title" >Reserve ta place!</div>
-              <div>C'est gratuit</div>
+              <div>Entrée gratuit</div>
             </a>
 
           </div>
