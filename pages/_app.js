@@ -2,6 +2,7 @@ import { useEffect } from "react"
 import '../styles/globals.css'
 import '../styles/index.scss'
 import Script from "next/script"
+import TagManager from 'react-gtm-module';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -28,6 +29,8 @@ LinkedIn : https://www.linkedin.com/company/dakar-ruby-brigrade/
     `
     console.log(text, style);
     console.log(text2, style2);
+    TagManager.initialize({ gtmId: 'G-9RM52KJ83L' });
+
   }, [])
   return (
     <>
@@ -45,6 +48,20 @@ LinkedIn : https://www.linkedin.com/company/dakar-ruby-brigrade/
           });
         `,
       }} />
+    <Script async src="https://www.googletagmanager.com/gtag/js?id=G-9RM52KJ83L"></Script>
+    <Script
+      id='google-analytics'
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{
+        __html: `window.dataLayer = window.dataLayer || [];
+        function gtag(){
+          dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+  
+        gtag('config', 'G-9RM52KJ83L');` 
+      }}>
+    </Script>
       <Component {...pageProps} />
 
     </>
