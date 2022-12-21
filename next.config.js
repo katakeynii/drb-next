@@ -8,6 +8,11 @@ const nextConfig = {
         destination: 'https://bit.ly/drb-odc-24dec',
         permanent: true,
       },
+      {
+        source: '/questions',
+        destination: 'https://cutt.ly/F0FR3Dx',
+        permanent: true
+      }
     ]
   },
 }
